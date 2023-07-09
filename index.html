@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <ul id="dropdown">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">conact</a></li>
+                            <li>
+                                <a href="#"> about us</a>
+                                <ul id="dropdown">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">conact</a></li>
+                                    <li><a href="#"> about us</a></li>
+                                    <li><a href="#">more info</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">more info</a>
+                                <ul id="dropdown">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">conact</a></li>
+                                    <li><a href="#"> about us</a></li>
+                                    <li><a href="#">more info</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">conact</a></li>
+                    <li><a href="#"> about us</a></li>
+                    <li><a href="#">more info</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <table>
+                    <caption>
+                        <h1>student infornmatio</h1>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>SL No</th>
+                            <th>Name</th>
+                            <th>Id</th>
+                            <th>CGPA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><em>Sajib Hasan</em></td>
+                            <td><strong>1234556</strong></td>
+                            <td>3.78</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sabbir Hossain</td>
+                            <td><strong>23456788</strong></td>
+                            <td>3.44</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Afrafat</td>
+                            <td><b>3654547</b></td>
+                            <td>3.56</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="frm">
+                <form action="">
+                    <div><h1>Registration Form</h1></div>
+                    <div>
+                        <div class="label-box">
+                            <label for="name">Your Name:</label>
+                        </div>
+                        <div class="input-box">
+                            <input
+                                class="inp"
+                                type="text"
+                                placeholder="Enter your name"
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label-box">
+                            <label for="phone">Your Phone Number:</label>
+                        </div>
+                        <div class="input-box">
+                            <input
+                                class="inp"
+                                type="number"
+                                placeholder="Enter your Phone number"
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label-box">
+                            <label for="email">Your Email:</label>
+                        </div>
+                        <div class="input-box">
+                            <input
+                                class="inp"
+                                type="email"
+                                placeholder="Enter your email"
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label-box">
+                            <label for="password">password:</label>
+                        </div>
+                        <div class="input-box">
+                            <input
+                                class="inp"
+                                type="text"
+                                placeholder="Enter password"
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label-box">
+                            <label for="password">Repeat assword:</label>
+                        </div>
+                        <div class="input-box">
+                            <input
+                                class="inp"
+                                type="text"
+                                placeholder="Enter password"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="check">
+                        <div class="label-box">
+                            <label for="">Choose one item: </label>
+                        </div>
+                        <div class="input-box">
+                            <select name="" id="fruits">
+                                <option value="1">mango</option>
+                                <option value="2">orange</option>
+                                <option value="3">apple</option>
+                                <option value="4">water melon</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <fieldset>
+                        <legend>Choose One player:</legend>
+                        <label for=""
+                            ><input type="radio" name="player" /> Sakib Al
+                            Hasan</label
+                        ><br />
+                        <label for=""
+                            ><input type="radio" name="player" /> Tamim
+                            IQbal</label
+                        ><br />
+                        <label for=""
+                            ><input type="radio" name="player" /> Mashrafi bin
+                            mortaza</label
+                        ><br />
+                        <label for=""
+                            ><input type="radio" name="player" />
+                            Mustafizur</label
+                        ><br />
+                        <label for=""
+                            ><input type="radio" name="player" /> Liton Kumar
+                            Das</label
+                        ><br />
+                        <label for=""
+                            ><input type="radio" name="player" /> Mahedi
+                            hasan</label
+                        ><br />
+                    </fieldset>
+
+                    <div class="btn">
+                        <div><button>Reset</button></div>
+                        <div><button>submit</button></div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <!-- table complete -->
+    </body>
+</html>

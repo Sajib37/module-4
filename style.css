@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+caption,
+td,
+th {
+    border: 3px solid green;
+}
+td,
+th {
+    padding: 10px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+nav {
+    height: 70px;
+    background-color: rgb(1, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+}
+nav > ul > li {
+    margin-right: 100px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav li {
+    list-style-type: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+nav li:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+nav li #dropdown {
+    position: absolute;
+    background-color: cadetblue;
+    padding: 10px 10px;
+    display: none;
+}
+nav li:hover > #dropdown {
+    display: block;
+    transition-duration: 2s;
+}
+#frm {
+}
+form {
+    height: 800px;
+    width: 600px;
+    background-color: darkcyan;
+    margin: 30px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0px 50px;
+}
+.label-box {
+    display: inline-block;
+    width: 160px;
+    margin: 10px 0px;
+}
+.input-box {
+    display: inline-block;
+    width: 250px;
+    margin: 10px 0px;
+}
+label {
+    font-size: 18px;
+}
+.inp {
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    background-color: cornsilk;
+    border: 2px solid cornsilk;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#fruits {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    background-color: cornsilk;
+    border: 2px solid cornsilk;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+fieldset {
+    padding: 30px;
+    position: relative;
+    right: 90px;
+    background-color: rgba(240, 248, 255, 0.244);
+}
+legend {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.btn {
+    height: 40px;
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.btn div {
+    display: inline-block;
+}
+button {
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(37, 2, 48);
+    border: 3px solid rgb(37, 2, 48);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover {
+    background-color: coral;
+    transition: 1.5s;
+    color: rgb(36, 0, 0);
+}
